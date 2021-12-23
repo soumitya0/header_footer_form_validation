@@ -1,0 +1,15 @@
+.logo {
+  font-weight: 700;
+}
+.nav-link {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.app-bar {
+  background-color: var(--theme-background);
+}
+
+.active {
+  color: #fff;
+}

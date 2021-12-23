@@ -1,0 +1,67 @@
+{
+  "inputs": [
+    {
+      "type": "text",
+      "name": "empId",
+      "value": "",
+      "lable": "Employee Id",
+      "placeholder": "Employee Id",
+      "validations": [
+        { "required": true },
+        { "alphaNumeric": true },
+        { "minLength": 10 }
+      ]
+    },
+
+    {
+      "type": "text",
+      "name": "department",
+      "value": "",
+      "lable": "Employee Department",
+      "placeholder": "Employee Department",
+      "validations": [{ "required": true }]
+    },
+
+    {
+      "type": "textarea",
+      "name": "workDescription",
+      "value": "",
+      "rows": 4,
+      "lable": "Work Description",
+      "placeholder": "Work Description",
+      "validations": []
+    },
+    {
+      "type": "select",
+      "name": "city",
+      "value": "delhi",
+      "lable": "city",
+      "placeholder": "City name",
+      "validations": [
+        {
+          "required": true
+        }
+      ],
+
+      "options": [
+        { "label": "Delhi", "value": "delhi" },
+        { "label": "Mumbai", "value": "mumbai" },
+        { "label": "Bangalore", "value": "bangalore" },
+        { "label": "Hyderabad", "value": "hyderabad" }
+      ]
+    },
+
+    {
+      "type": "number",
+      "name": "zipcode",
+      "value": "",
+      "lable": "Zip Code",
+      "placeholder": "Zip Code",
+      "validations": [
+        {
+          "required": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+.h4class {
+  color: blue;
+}
+
+.auth-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.auth-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-buttons {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.form-buttons button {
+  margin: 0 10px;
+  display: inline-block;
+}

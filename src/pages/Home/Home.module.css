@@ -1,0 +1,19 @@
+.emp-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -1rem !important;
+}
+
+.emp-form__grid {
+  display: flex;
+  flex-direction: column;
+}
+.emp-form__input {
+  margin-top: 1rem !important;
+}
+
+.submit {
+  margin-top: 2rem !important;
+}
